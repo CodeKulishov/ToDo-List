@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    background: linear-gradient(124deg,#1ccb8d,#c6696c,#aef228,#aef736);
+    background-size: 240% 240%;
+    animation: gradient-animation 40s ease infinite;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.start-to-do{
+    margin-top: 5%;
+}
+
+input {
+    border-radius: 20px;
+    width: 350px;
+    height: 30px;
+}
